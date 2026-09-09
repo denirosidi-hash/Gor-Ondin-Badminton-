@@ -17,7 +17,7 @@ jobs:
       - name: Extract APK project
         run: |
           mkdir build-src
-          unzip -q GOR_Ondin_Badminton_APK_FIX_HAPUS_MEMBER_ZOOM.zip -d build-src
+          unzip -q GOR_Ondin_Badminton_APK_FIX_SHARE.zip -d build-src
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
